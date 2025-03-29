@@ -11,6 +11,6 @@ jobs:
         id: get_value
         uses: ./.github/actions/
         with: 
-          valor:"Alice"
+          valor: "Alice"
       - name: Print result
         run: echo "${{ steps.get_value.outputs.result }}"
